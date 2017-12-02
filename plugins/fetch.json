@@ -1,0 +1,26 @@
+{
+  "cordova-plugin-statusbar": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-statusbar@~2.2.3"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "phonegap-plugin-service-worker": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/phonegap/phonegap-plugin-service-worker"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "es6-promise-plugin": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/vstirbu/PromisesPlugin.git"
+    },
+    "is_top_level": false,
+    "variables": {}
+  }
+}

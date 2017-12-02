@@ -1,0 +1,32 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "This is the project created from the template: cordova_template",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova:template"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "cordova-browser": "^5.0.1",
+    "cordova-ios": "~4.3.1",
+    "cordova-plugin-statusbar": "^2.2.3",
+    "es6-promise-plugin": "git+https://github.com/vstirbu/PromisesPlugin.git",
+    "jsonfile": "^2.4.0",
+    "phonegap-plugin-service-worker": "git+https://github.com/phonegap/phonegap-plugin-service-worker.git",
+    "xml2js": "^0.4.17"
+  },
+  "cordova": {
+    "platforms": [
+      "ios",
+      "browser"
+    ],
+    "plugins": {
+      "cordova-plugin-statusbar": {},
+      "phonegap-plugin-service-worker": {}
+    }
+  }
+}
