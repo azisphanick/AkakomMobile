@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Tentang Akakom
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card>
+    <ion-card-header>
+      Profil Akakom
+    </ion-card-header>
+  
+    <ion-list>
+      <button ion-item (click)="onVisiMisi()">
+        <ion-icon name="star" item-start></ion-icon>
+        Visi & Misi
+      </button>
+  
+      <button ion-item (click)="onProfile()"> 
+        <ion-icon name="home" item-start></ion-icon>
+        Profile STMIK Akakom
+      </button>
+  
+      <button ion-item (click)="onKontak()">
+        <ion-icon name="pin" item-start></ion-icon>
+        Kontak Kami
+      </button>
+  
+      <button ion-item (click)="onPejabat()">
+        <ion-icon name="people" item-start></ion-icon>
+        Pejabat di STMIK Akakom
+      </button>
+  
+      <button ion-item (click)="onDosen()">
+        <ion-icon name="contact" item-start></ion-icon>
+        Kontak Dosen STMIK Akakom
+      </button>
+  
+    </ion-list>
+  </ion-card>
+</ion-content>
