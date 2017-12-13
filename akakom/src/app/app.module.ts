@@ -15,6 +15,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { DosenPage } from '../pages/dosen/dosen';
 import { PejabatPage } from '../pages/pejabat/pejabat';
+import { JurusanPage } from '../pages/jurusan/jurusan';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { PejabatPage } from '../pages/pejabat/pejabat';
     ProfilePage,
     KontakPage,
     DosenPage,
-    PejabatPage
+    PejabatPage,
+    JurusanPage
   ],
   imports: [
     BrowserModule,
@@ -45,7 +47,8 @@ import { PejabatPage } from '../pages/pejabat/pejabat';
     ProfilePage,
     KontakPage,
     DosenPage,
-    PejabatPage
+    PejabatPage,
+    JurusanPage
   ],
   providers: [
     StatusBar,

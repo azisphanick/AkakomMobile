@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import { JurusanPage } from '../jurusan/jurusan';
 
 @Component({
   selector: 'page-contact',
@@ -8,7 +9,9 @@ import { NavController } from 'ionic-angular';
 export class ContactPage {
 
   constructor(public navCtrl: NavController) {
-
+  }
+  onJurusan() {
+    this.navCtrl.push(JurusanPage)
   }
 
 }
