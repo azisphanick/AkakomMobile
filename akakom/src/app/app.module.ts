@@ -16,6 +16,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { DosenPage } from '../pages/dosen/dosen';
 import { PejabatPage } from '../pages/pejabat/pejabat';
 import { JurusanPage } from '../pages/jurusan/jurusan';
+import { TIPage } from '../pages/ti/ti';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { JurusanPage } from '../pages/jurusan/jurusan';
     KontakPage,
     DosenPage,
     PejabatPage,
-    JurusanPage
+    JurusanPage,
+    TIPage
   ],
   imports: [
     BrowserModule,
@@ -48,7 +50,8 @@ import { JurusanPage } from '../pages/jurusan/jurusan';
     KontakPage,
     DosenPage,
     PejabatPage,
-    JurusanPage
+    JurusanPage,
+    TIPage
   ],
   providers: [
     StatusBar,
