@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { VisiPage } from '../visimisi/visimisi';
-import { HomePage } from '../home/home';
 import {ProfilePage} from '../profile/profile';
 import { KontakPage } from '../kontak/kontak';
 import { DosenPage } from '../dosen/dosen';

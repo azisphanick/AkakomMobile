@@ -3,6 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
+import { Camera } from '@ionic-native/camera';
+import { BrowserTab } from '@ionic-native/browser-tab';
+
+
 import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
@@ -16,6 +20,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { DosenPage } from '../pages/dosen/dosen';
 import { PejabatPage } from '../pages/pejabat/pejabat';
 import { JurusanPage } from '../pages/jurusan/jurusan';
+<<<<<<< HEAD
+=======
+import { CordovaPage } from '../pages/cordova/cordova';
+>>>>>>> aadf5644210ec0a98c3791961c68e4de74e5a0af
 import { TIPage } from '../pages/ti/ti';
 
 
@@ -32,6 +40,10 @@ import { TIPage } from '../pages/ti/ti';
     DosenPage,
     PejabatPage,
     JurusanPage,
+<<<<<<< HEAD
+=======
+    CordovaPage,
+>>>>>>> aadf5644210ec0a98c3791961c68e4de74e5a0af
     TIPage
   ],
   imports: [
@@ -51,11 +63,15 @@ import { TIPage } from '../pages/ti/ti';
     DosenPage,
     PejabatPage,
     JurusanPage,
+<<<<<<< HEAD
+=======
+    CordovaPage,
+>>>>>>> aadf5644210ec0a98c3791961c68e4de74e5a0af
     TIPage
   ],
   providers: [
     StatusBar,
-    SplashScreen,
+    SplashScreen,Camera, BrowserTab,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

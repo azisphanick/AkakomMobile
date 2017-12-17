@@ -15,4 +15,7 @@ export class JurusanPage {
     	this.navCtrl.push(TIPage)
     }
 
+    onTI(){
+        this.navCtrl.push(TIPage)
+    }
 }
