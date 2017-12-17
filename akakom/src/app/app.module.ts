@@ -4,6 +4,7 @@ import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
 import { Camera } from '@ionic-native/camera';
+import { BrowserTab } from '@ionic-native/browser-tab';
 
 
 import { AboutPage } from '../pages/about/about';
@@ -61,7 +62,7 @@ import { TIPage } from '../pages/ti/ti';
   ],
   providers: [
     StatusBar,
-    SplashScreen,Camera,
+    SplashScreen,Camera, BrowserTab,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

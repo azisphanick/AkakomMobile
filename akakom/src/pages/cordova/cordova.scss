@@ -1,13 +1,13 @@
 page-cordova {
-.block {
-    position: relative;
+  .block {
+      position: relative;
       .deleteIcon {
         position: absolute !important;
-        color: #123412 !important;
+        color: #ffffff !important;
         margin-left: 80% !important;
       }
       .deleteIcon:before {
         font-size: 30px !important;
       }
-}
+  }
 }

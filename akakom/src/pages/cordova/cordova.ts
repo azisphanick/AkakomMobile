@@ -18,22 +18,28 @@ export class CordovaPage {
     }
 
     takePhoto() {
+        console.log("coming here");
+
         const options: CameraOptions = {
-            quality: 100,
+            quality: 50,
             destinationType: this.camera.DestinationType.DATA_URL,
             encodingType: this.camera.EncodingType.JPEG,
-            mediaType: this.camera.MediaType.PICTURE
-        }
+            mediaType: this.camera.MediaType.PICTURE,
+            targetWidth: 450,
+            targetHeight: 450,
+            saveToPhotoAlbum: false
+        };
 
-        this.camera.getPicture(options).then((imageData) => {
-            // imageData is either a base64 encoded string or a file URI
-            // If it's base64:
-            this.base64Image = 'data:image/jpeg;base64,' + imageData;
-            this.photos.push(this.base64Image);
-            this.photos.reserve();
-        }, (err) => {
-            // Handle error
-        });
+        this.camera.getPicture(options).then(
+            imageData => {
+                this.base64Image = "data:image/jpeg;base64," + imageData;
+                this.photos.push(this.base64Image);
+                this.photos.reverse();
+            },
+            err => {
+                console.log(err);
+            }
+        );
     }
 
     deletePhoto(index) {
