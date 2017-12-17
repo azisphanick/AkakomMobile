@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { JurusanPage } from '../jurusan/jurusan';
+import { CordovaPage } from '../cordova/cordova';
 
 @Component({
   selector: 'page-contact',
@@ -12,6 +13,10 @@ export class ContactPage {
   }
   onJurusan() {
     this.navCtrl.push(JurusanPage)
+  }
+
+  onCordova() {
+    this.navCtrl.push(CordovaPage)
   }
 
 }

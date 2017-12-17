@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import { TIPage } from '../ti/ti';
 
 @Component({
     selector: 'page-jurusan',
@@ -11,4 +12,7 @@ export class JurusanPage {
 
     }
 
+    onTI(){
+        this.navCtrl.push(TIPage)
+    }
 }
